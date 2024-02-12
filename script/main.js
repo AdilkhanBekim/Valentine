@@ -100,10 +100,10 @@ const animationTimeline = () => {
       },
       "+=0.7"
     )
-    .from(".idea-1", 1.7, ideaTextTrans)
-    .to(".idea-1", 1.7, ideaTextTransLeave, "+=1.5")
-    .from(".idea-2", 1.7, ideaTextTrans)
-    .to(".idea-2", 1.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-1", 2.7, ideaTextTrans)
+    .to(".idea-1", 2.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-2", 2.7, ideaTextTrans)
+    .to(".idea-2", 2.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-3", 1.7, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
